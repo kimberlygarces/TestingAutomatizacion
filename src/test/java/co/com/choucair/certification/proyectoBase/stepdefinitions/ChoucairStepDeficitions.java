@@ -1,4 +1,5 @@
 package co.com.choucair.certification.proyectoBase.stepdefinitions;
+import co.com.choucair.certification.proyectoBase.tasks.OpenRegister;
 import co.com.choucair.certification.proyectoBase.tasks.OpenUp;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
@@ -16,7 +17,10 @@ public class ChoucairStepDeficitions {
 
     @Given("^The user wants to register a new user on the platform$")
     public void theUserWantsToRegisterANewUserOnThePlatform() {
-        OnStage.theActorCalled("Kim").wasAbleTo(OpenUp.thePage());
+        OnStage.theActorCalled("Kim").wasAbleTo(
+                OpenUp.thePage(),
+                OpenRegister.OnThePage()
+        );
     }
 
 

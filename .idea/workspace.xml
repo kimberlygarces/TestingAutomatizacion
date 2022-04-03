@@ -2,49 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d846eec-2956-4e24-a5a0-b33e7771a13c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyectoBase/userinterface/PageInitial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/choucair/certification/proyectoBase/stepdefinitions/ChoucairStepDeficitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyectoBase/tasks/OpenRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyectoBase/userinterface/PageRegister.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/com/choucair/certification/proyectoBase/model/DataRegister.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/com/choucair/certification/proyectoBase/questions/Answer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/com/choucair/certification/proyectoBase/tasks/OpenUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/co/com/choucair/certification/proyectoBase/tasks/OpenUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/com/choucair/certification/proyectoBase/tasks/Registro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/com/choucair/certification/proyectoBase/userinterface/choucairAcademyPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/com/choucair/certification/proyectoBase/userinterface/registerPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/co/com/choucair/certification/proyectoBase/stepdefinitions/ChoucairAcademyStepDefinitions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Academy#20Choucair.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/Academy#20Choucair.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/co.com.choucair.certification.proyectoBase.runners.RunnerTags.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/co.com.choucair.certification.proyectoBase.runners.RunnerTags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/co.com.choucair.certification.proyectoBase.runners.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/co.com.choucair.certification.proyectoBase.runners.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/features/academyChoucair.feature" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/features/academyChoucair.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Academy#20Choucair.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-Academy#20Choucair.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-co.com.choucair.certification.proyectoBase.runners.RunnerTags.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-co.com.choucair.certification.proyectoBase.runners.RunnerTags.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyectoBase/model/DataRegister.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyectoBase/questions/Answer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyectoBase/tasks/OpenUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyectoBase/tasks/OpenUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyectoBase/tasks/Registro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyectoBase/userinterface/choucairAcademyPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyectoBase/userinterface/registerPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/choucair/certification/proyectoBase/stepdefinitions/ChoucairAcademyStepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/academyChoucair.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/academyChoucair.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/5971788e49222a92b98bfd13b45cea137e39ee9964acedcd62b4dcd9fdeb9ffa.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5971788e49222a92b98bfd13b45cea137e39ee9964acedcd62b4dcd9fdeb9ffa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/5971788e49222a92b98bfd13b45cea137e39ee9964acedcd62b4dcd9fdeb9ffa.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5971788e49222a92b98bfd13b45cea137e39ee9964acedcd62b4dcd9fdeb9ffa.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/5971788e49222a92b98bfd13b45cea137e39ee9964acedcd62b4dcd9fdeb9ffa_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5971788e49222a92b98bfd13b45cea137e39ee9964acedcd62b4dcd9fdeb9ffa_screenshots.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-5971788e49222a92b98bfd13b45cea137e39ee9964acedcd62b4dcd9fdeb9ffa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-5971788e49222a92b98bfd13b45cea137e39ee9964acedcd62b4dcd9fdeb9ffa.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/choucair/certification/proyectoBase/stepdefinitions/ChoucairStepDeficitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/choucair/certification/proyectoBase/stepdefinitions/ChoucairStepDeficitions.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,8 +44,8 @@
       <recent name="co.com.choucair.certification.proyectoBase.tasks" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="co.com.choucair.certification.proyectoBase.userinterface" />
       <recent name="co.com.choucair.certification.proyectoBase.tasks" />
+      <recent name="co.com.choucair.certification.proyectoBase.userinterface" />
       <recent name="co.com.choucair.certification.proyectoBase.questions" />
     </key>
   </component>

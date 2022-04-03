@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Academy Choucair" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-03T03:25:12" hostname="Kimberly" time="10.937">
+<testsuite name="Academy Choucair" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-03T03:57:56" hostname="Kimberly" time="12.671">
   <properties/>
-  <testcase name="User register" classname="Academy Choucair" time="10.937"/>
+  <testcase name="User register" classname="Academy Choucair" time="12.671"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@63beef48
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@1784faf4
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@62518f32
-Apr 02, 2022 10:25:13 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@50ccfad2
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@59564a29
+Apr 02, 2022 10:57:56 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 20760
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 26948
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1648956317.570][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
-Apr 02, 2022 10:25:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1648958279.564][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+Apr 02, 2022 10:57:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:User register:Given The user wants to register a new user on the platform [Kim open up [Kim opens the Page initial]]
 [Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:User register:Given The user wants to register a new user on the platform [Kim open up [Kim opens the Page initial]]
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:User register:Given The user wants to register a new user on the platform [Kim open up [Kim opens the Page initial]]
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@34166d4f
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:User register:Given The user wants to register a new user on the platform [Kim open up [Kim opens the Page initial]], When FThe user enters the registration data
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@65cf0fbc
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:User register:Given The user wants to register a new user on the platform [Kim open up [Kim opens the Page initial]], When FThe user enters the registration data, Then End user registration
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: User register:Given The user wants to register a new user on the platform [Kim open up [Kim opens the Page initial]], When FThe user enters the registration data, Then End user registration
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [User register:Given The user wants to register a new user on the platform [Kim open up [Kim opens the Page initial]], When FThe user enters the registration data, Then End user registration]
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [User register:Given The user wants to register a new user on the platform [Kim open up [Kim opens the Page initial]], When FThe user enters the registration data, Then End user registration]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@6d91a99b
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4156f744
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:User register:Given The user wants to register a new user on the platform [Kim open up [Kim opens the Page initial], Kim open register [Kim clicks on Button register new]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:User register:Given The user wants to register a new user on the platform [Kim open up [Kim opens the Page initial], Kim open register [Kim clicks on Button register new]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:User register:Given The user wants to register a new user on the platform [Kim open up [Kim opens the Page initial], Kim open register [Kim clicks on Button register new]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@28b29d9b
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:User register:Given The user wants to register a new user on the platform [Kim open up [Kim opens the Page initial], Kim open register [Kim clicks on Button register new]], When FThe user enters the registration data
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2b1c9eba
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:User register:Given The user wants to register a new user on the platform [Kim open up [Kim opens the Page initial], Kim open register [Kim clicks on Button register new]], When FThe user enters the registration data, Then End user registration
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: User register:Given The user wants to register a new user on the platform [Kim open up [Kim opens the Page initial], Kim open register [Kim clicks on Button register new]], When FThe user enters the registration data, Then End user registration
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [User register:Given The user wants to register a new user on the platform [Kim open up [Kim opens the Page initial], Kim open register [Kim clicks on Button register new]], When FThe user enters the registration data, Then End user registration]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [User register:Given The user wants to register a new user on the platform [Kim open up [Kim opens the Page initial], Kim open register [Kim clicks on Button register new]], When FThe user enters the registration data, Then End user registration]
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
