@@ -1,22 +1,24 @@
 package co.com.choucair.certification.proyectoBase.tasks;
 
+import co.com.choucair.certification.proyectoBase.userinterface.PageInitial;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Open;
 
-public class OpenUp implements Task {
-private co.com.choucair.certification.proyectoBase.userinterface.choucairAcademyPage choucairAcademyPage;
+
+public class OpenUp  implements Task {
+    private co.com.choucair.certification.proyectoBase.userinterface.PageInitial PageInitial;
     public static Performable thePage() {
         return Tasks.instrumented(OpenUp.class);
     }
 
-
-
     @Override
-    public <T extends Actor> void performAs(T actor) {
+    public <T extends Actor> void performAs(T actor){
+        actor.attemptsTo(Open.browserOn(PageInitial));
 
-        actor.attemptsTo(Open.browserOn(choucairAcademyPage));
     }
+
+
 }

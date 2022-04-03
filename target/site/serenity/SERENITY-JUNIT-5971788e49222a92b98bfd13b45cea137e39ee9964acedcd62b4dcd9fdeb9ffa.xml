@@ -1,3 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Academy Choucair" skipped="0" tests="1" time="0.46" timestamp="2022-04-01 12:08:01"><testcase name="User register"><error message="No such field co.com.choucair.certification.proyectoBase.model.DataRegister.nAME" type="cucumber.runtime.CucumberException">No such field co.com.choucair.certification.proyectoBase.model.DataRegister.nAME</error><system-err>No such field co.com.choucair.certification.proyectoBase.model.DataRegister.nAME&#13;
-cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Academy Choucair" skipped="0" tests="1" time="10.18" timestamp="2022-04-02 10:25:12"><testcase name="User register"/></testsuite>
