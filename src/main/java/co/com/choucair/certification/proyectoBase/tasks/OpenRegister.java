@@ -13,6 +13,8 @@ public class OpenRegister implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor){
-        actor.attemptsTo(Click.on(PageRegister.REGISTER_BUTTON));
+        actor.attemptsTo(
+                Click.on(PageRegister.REGISTER_BUTTON)
+        );
     }
 }

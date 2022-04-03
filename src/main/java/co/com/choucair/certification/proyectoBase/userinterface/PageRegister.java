@@ -1,8 +1,9 @@
 package co.com.choucair.certification.proyectoBase.userinterface;
 
 import net.serenitybdd.core.pages.PageObject;
-import org.openqa.selenium.By;
 import net.serenitybdd.screenplay.targets.Target;
+import org.openqa.selenium.By;
+
 
 
 public class PageRegister extends PageObject {

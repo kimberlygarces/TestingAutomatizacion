@@ -1,6 +1,7 @@
 package co.com.choucair.certification.proyectoBase.stepdefinitions;
 import co.com.choucair.certification.proyectoBase.tasks.OpenRegister;
 import co.com.choucair.certification.proyectoBase.tasks.OpenUp;
+import co.com.choucair.certification.proyectoBase.tasks.RegistrationDate;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -24,9 +25,10 @@ public class ChoucairStepDeficitions {
     }
 
 
-    @When("^FThe user enters the registration data$")
-    public void ftheUserEntersTheRegistrationData() {
+    @When("^FThe user enters the (.*) data$")
+    public void ftheUserEntersTheRegistrationData(String registration) {
 
+        OnStage.theActorInTheSpotlight().attemptsTo(RegistrationDate.the(registration));
     }
 
     @Then("^End user registration$")
